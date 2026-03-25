@@ -3,7 +3,7 @@ cask "snip" do
   name "snip"
   desc "CLI proxy that reduces LLM token consumption by 60-90% by filtering shell output"
   homepage "https://github.com/edouard-claude/snip"
-  version "0.6.4"
+  version "0.6.5"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "snip" do
   on_macos do
     on_intel do
       url "https://github.com/edouard-claude/snip/releases/download/v#{version}/snip_#{version}_darwin_amd64.tar.gz"
-      sha256 "9e7bd7bab50c2f5683b29e4f497d8cc210c9c7d44fd9cffabf46118d73f2b35f"
+      sha256 "8a3b3f3719e00257863d2aab9de36d7c7a612a11868bf12911bbe18a7d38e7e8"
     end
     on_arm do
       url "https://github.com/edouard-claude/snip/releases/download/v#{version}/snip_#{version}_darwin_arm64.tar.gz"
-      sha256 "6f79efb19fd60465d96895573856957b94b9d549ceec3253fec387bba6a9a2f6"
+      sha256 "5e38cf90ce850d1a121f05bdd5bdc7e05a47793b7389672c814fe64ff09607fd"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/edouard-claude/snip/releases/download/v#{version}/snip_#{version}_linux_amd64.tar.gz"
-      sha256 "60fd1d7552f0096714e905b42fcd8a974b485bbf5a4ae0bfdff67dff266809f5"
+      sha256 "3b9766d17eb97aee79f2a22f9bf662d2b1b2395166b27aeffdacc49c6fe97e9a"
     end
     on_arm do
       url "https://github.com/edouard-claude/snip/releases/download/v#{version}/snip_#{version}_linux_arm64.tar.gz"
-      sha256 "f6b8a05366b865f2e8b70c538d4edda05c24571d9c630839d2522825535bf32d"
+      sha256 "cbd07f4d9711f1ccad8644b72a6bab9dd8208e353340f21ae4d89492a1aa235a"
     end
   end
 
