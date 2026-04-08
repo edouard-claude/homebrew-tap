@@ -5,22 +5,22 @@ cask "snip" do
   on_macos do
     on_intel do
       url "https://github.com/edouard-claude/snip/releases/download/v#{version}/snip_#{version}_darwin_amd64.tar.gz"
-      sha256 "5a8f3c02882d58b25791f275a9c7ffe5bb2fc205581c7e8dd91e555b0dde9c68"
+      sha256 "95c19a3e5b17f109bb65b5d776edb8c2ca0e0858b0191c6d756fe32f7157c26d"
     end
     on_arm do
       url "https://github.com/edouard-claude/snip/releases/download/v#{version}/snip_#{version}_darwin_arm64.tar.gz"
-      sha256 "861d57944e080c8bf34cfed602367b88e40a1ac79404fcde365bfcd739a7302e"
+      sha256 "2501eab1671b8d9766ce10375f7459b8cb455b28a92277e37f9c9b7f8f6b04f8"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/edouard-claude/snip/releases/download/v#{version}/snip_#{version}_linux_amd64.tar.gz"
-      sha256 "4cf7f0d9188b047d35cb2b35143eb9d9bdfc50f818b8bf3ec7d0d301d037b512"
+      sha256 "ed6bd4a8b3b2cd8ead7e25bfefd14acf0d72467c072e4da36fff32bb235bd0f9"
     end
     on_arm do
       url "https://github.com/edouard-claude/snip/releases/download/v#{version}/snip_#{version}_linux_arm64.tar.gz"
-      sha256 "7764979a8d54538a23fdf47607ea2eba31168c363be6a2335f0ec1021aceac52"
+      sha256 "e4abc2761daaeacaa8df95d4f479afa01ef71a05517949807cd82a1f94f2c9f1"
     end
   end
 
